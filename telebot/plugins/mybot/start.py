@@ -85,9 +85,9 @@ async def start_all(event):
                                   caption=startotherena,
                                   buttons=[
                                       [Button.url(
-                                          "TeleBot", url="https://github.com/xditya/TeleBot")],
+                                          "ThunderX", url="https://github.com/theshashankk/ThunderXRoBoT")],
                                       [Button.inline(
-                                          "Whats this?", data="telebot")]
+                                          "Whats this?", data="Cool Bot By @Theshashank")]
                                   ]
                                   )
         else:
@@ -95,9 +95,9 @@ async def start_all(event):
                                      startotherena,
                                      buttons=[
                                          [Button.url(
-                                             "TeleBot", url="https://github.com/xditya/TeleBot")],
+                                             "ThunderX", url="https://github.com/theshashankk/ThunderXRoBoT")],
                                          [Button.inline(
-                                             "Whats this?", data="telebot")]
+                                             "Whats this?", data="Buty fool bot by @TheShashank")]
                                      ]
                                      )
 
@@ -115,9 +115,9 @@ async def owner(event):
                                   Button.inline(
                                      "Stats ⚙️", data="stats")],
                                  [Button.inline("Broadcast",
-                                                data="telebroad")],
-                                 [Button.url("Support",
-                                             url="https://t.me/TeleBotSupport")]
+                                                data="Thunderbroad")],
+                                 [Button.url("Creator",
+                                             url="https://t.me/Theshashank")]
                              ])
 
 
@@ -140,10 +140,10 @@ async def logs(event):
         event.chat_id,
         "logs.txt",
         reply_to=event.id,
-        caption="**Heroku** TeleBot Logs",
+        caption="**Heroku** Thunder X Logs",
         buttons=[
             [Button.url("View Online", f"{url}")],
-            [Button.url("Crashed?", "t.me/TeleBotHelpChat")]
+            [Button.url("Crashed?", "t.me/Theshashank")]
         ])
     await asyncio.sleep(5)
     return os.remove('logs.txt')
@@ -181,10 +181,10 @@ async def settings(event):
 async def settings(event):
     await event.edit("Browse through the available options:",
                      buttons=[
-                         [(Button.url("Repository", url="https://github.com/xditya/TeleBot")),
-                          (Button.url("Deploy", url="https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fxditya%2FTeleBot%2F&template=https%3A%2F%2Fgithub.com%2Fxditya%2FTeleBot"))],
-                         [Button.url("Support",
-                                     url="https://t.me/TeleBotSupport")]
+                         [(Button.url("Repository", url="https://github.com/theshashankk/ThunderXRoBoT")),
+                          (Button.url("Deploy", url="https://github.com/theshashankk/ThunderXRoBoT"))],
+                         [Button.url("Creator",
+                                     url="https://t.me/Theshashank")]
                      ])
 
 
